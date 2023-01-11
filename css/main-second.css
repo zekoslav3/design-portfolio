@@ -1,0 +1,130 @@
+﻿
+#pages {
+    padding-top: 50px;
+}
+
+.navigation {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+/*============================================================
+About
+==============================================================*/
+
+#about-1 {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.card-grid .front, .card-grid .back {
+    padding: 10px;
+    text-align: center;
+    border: 1px #333 solid;
+}
+
+.card-grid .back {
+    background-color: #333;
+    color: white;
+}
+
+/*============================================================
+Portfolio
+==============================================================*/
+
+#portfolio {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.filtering {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.filtering button {
+    margin: 5px 5px 5px 5px;
+}
+
+/*============================================================
+Portfolio grid
+==============================================================*/
+
+#portfolio-grid {
+    overflow: hidden;
+}
+
+.portfolio-grid {
+    background: #272727;
+    color: #DDD;
+}
+
+.portfolio-grid .sec-title {
+    color: #FF652F;
+    padding-bottom: 0;
+    /*margin-bottom: 60px;*/
+}
+
+.portfolio-grid .portfolio-filtering {
+    margin-top: 18px;
+}
+
+.portfolio-grid button {
+    font-size: 16px;
+    padding: 7px 15px;
+}
+
+.img-grid .col-xl-1, .img-grid .col-xl-10, .img-grid .col-xl-11, .img-grid .col-xl-12, .img-grid .col-xl-2, .img-grid .col-xl-3, .img-grid .col-xl-4, .img-grid .col-xl-5, .img-grid .col-xl-6, .img-grid .col-xl-7, .img-grid .col-xl-8, .img-grid .col-xl-9,
+.img-grid .col-lg-1, .img-grid .col-lg-10, .img-grid .col-lg-11, .img-grid .col-lg-12, .img-grid .col-lg-2, .img-grid .col-lg-3, .img-grid .col-lg-4, .img-grid .col-lg-5, .img-grid .col-lg-6, .img-grid .col-lg-7, .img-grid .col-lg-8, .img-grid .col-lg-9,
+.img-grid .col-md-1, .img-grid .col-md-10, .img-grid .col-md-11, .img-grid .col-md-12, .img-grid .col-md-2, .img-grid .col-md-3, .img-grid .col-md-4, .img-grid .col-md-5, .img-grid .col-md-6, .img-grid .col-md-7, .img-grid .col-md-8, .img-grid .col-md-9,
+.img-grid .col-sm-1, .img-grid .col-sm-10, .img-grid .col-sm-11, .img-grid .col-sm-12, .img-grid .col-sm-2, .img-grid .col-sm-3, .img-grid .col-sm-4, .img-grid .col-sm-5, .img-grid .col-sm-6, .img-grid .col-sm-7, .img-grid .col-sm-8, .img-grid .col-sm-9,
+.img-grid .col-xs-1, .img-grid .col-xs-10, .img-grid .col-xs-11, .img-grid .col-xs-12, .img-grid .col-xs-2, .img-grid .col-xs-3, .img-grid .col-xs-4, .img-grid .col-xs-5, .img-grid .col-xs-6, .img-grid .col-xs-7, .img-grid .col-xs-8, .img-grid .col-xs-9 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.img-grid .image {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+.img-grid .overlay {
+	background-color: #FF652F;
+	bottom: 0;
+	height: 100%;
+    width: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	transition: .5s ease;
+	top: 0;	
+}
+
+.img-grid .cell-container:hover .overlay {
+	opacity: .8;
+}
+
+.img-grid .text {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-transform: uppercase;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.img-grid .title {
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 40px;
+	text-transform: initial;
+}
+
+.img-grid .sub-title {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+}
